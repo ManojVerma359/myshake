@@ -217,7 +217,10 @@ nav ul {
   transition: all 250ms linear;
   border-radius: 14px;
 }
-.yellips:hover{
+.card1:hover .yellips{
+  opacity: 1;
+}
+.card2:hover .yellips{ 
   opacity: 1;
 }
 /* Coustmer_Section */
@@ -283,6 +286,27 @@ nav ul {
   border-radius: 14px;
   background: var(--ffffff, #fff);
   box-shadow: 0px 6px 39px 0px rgba(0, 0, 0, 0.07);
+}
+.bellips{
+  position: absolute;
+  content: url('../src/assets/images/bellips.png');
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: all 250ms linear;
+  border-radius: 14px;
+}
+.service_card:hover .bellips{
+  opacity: 1;
+}
+.report_card:hover .bellips{
+  opacity: 1;
+}
+.pet_card:hover .bellips{
+  opacity: 1;
+}
+.schdul_card:hover .bellips{
+  opacity: 1;
 }
 .viewbtn {
   padding: 14px 30px;
@@ -506,7 +530,16 @@ p {
   transition: all 250ms linear;
   border-radius: 14px;
 }
-.bellips:hover{
+.vallbtn:hover .bellips{
+  opacity: 1;
+}
+.pinkcat_card:hover .bellips{
+  opacity: 1;
+}
+.airplan_card:hover .bellips{
+  opacity: 1;
+}
+.aap_card:hover .bellips{
   opacity: 1;
 }
 /* .max-wid{
