@@ -67,8 +67,8 @@ const Hearder = () => {
         </div>
 
         </Col>
-        <Col lg={5} className="pt-3 pt-md-0" data-aos="fade-up-left">
-            <img className="w-100" src={phnimg} alt="#id" />
+        <Col lg={5} className="pt-3 pt-md-0 " data-aos="fade-up-left">
+            <div className="phnimg"><img className="w-100" src={phnimg} alt="#id" /></div>
         </Col>
        </Row>
 

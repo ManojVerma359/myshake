@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container,Row,Col } from 'react-bootstrap'
-import coustm_img from '../assets/images/custm_img.webp'
+import coustm_img from '../assets/images/custm_img.png'
 import {Message} from "./Iconsvg"
 import {Pets} from "./Iconsvg"
 import {Report} from './Iconsvg'
@@ -31,7 +31,7 @@ Automated client rating, provides instant feedback on client booking history, pa
 </p>
 <button className='freebtn fs-20 fw-400 ff-roboto mt-4'>Free Trial</button>
 </Col>
-<Col lg={7} className='pt-4 pt-lg-0'data-aos="fade-up-left">
+<Col lg={7} className='pt-4 pt-lg-0 phnimg'data-aos="fade-up-left">
     <img className='img_shadow w-100' src={coustm_img} alt="#id" />
 </Col>
 
